@@ -59,11 +59,11 @@
   background-color: #FF9A4B;
   display: inline-block;
   color: white;
-  padding: 2px 0;
+  padding: 3px;
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 footer {
