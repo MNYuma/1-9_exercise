@@ -1,2 +1,72 @@
 @charset "UTF-8";
 
+* {
+  line-height: 1.6;
+  font-size: 62.5%;
+}
+
+.page-header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+.common-wrapper {
+  width: 960px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.item {
+  width: 300px;
+  padding: 10px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.img {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.flow01 {
+  background-image: url(img/flow01.png);
+}
+
+.flow02 {
+  background-image: url(img/flow02.png);
+}
+
+.flow03 {
+  background-image: url(img/flow03.png);
+}
+
+.title {
+  margin: 15px 0 5px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+}
+
+.step {
+  background-color: #FF9A4B;
+  display: inline-block;
+  color: white;
+  padding: 2px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.4rem;
+}
+
+footer {
+  height: 50px;
+  background-color: #AAA;
+}
